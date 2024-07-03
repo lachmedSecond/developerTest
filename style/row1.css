@@ -1,0 +1,232 @@
+/*
+        medium devices styles
+    */
+
+@media (max-width: 992px) {
+  .row1 {
+    /* border: 1px solid green; */
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+  }
+
+  .row1 .card {
+    /* border: 1px solid saddlebrown; */
+    height: 8rem;
+    width: 12rem;
+    margin: 0.5rem auto;
+    padding: 0rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 1rem;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .row1 .card .cardArrowUp,
+  .row1 .card .cardArrowDown {
+    width: 0.7rem;
+    height: 0.7rem;
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 100% 100%);
+  }
+  .row1 .card .cardArrowUp {
+    background-color: rgb(102, 225, 88);
+    transform: rotate(134deg);
+  }
+  .row1 .card .cardArrowDown {
+    background-color: lightcoral;
+    transform: rotate(-45deg);
+  }
+
+  .row1 .card .cardRow1,
+  .row1 .card .cardRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .row1 .card .cardRow1 .cardLogo {
+    /* border: 1px solid saddlebrown; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .row1 .card .cardRow1 .cardDetails,
+  .row1 .card .cardRow2 .cardPrices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row1 .card .cardRow1 .cardDetails .abbr {
+    font-size: 12px;
+    color: gray;
+    margin-top: 0.4rem;
+  }
+
+  .row1 .card .cardRow2 .cardPrices .price2Up {
+    color: rgb(102, 225, 88);
+    margin-top: 0.4rem;
+  }
+  .row1 .card .cardRow2 .cardPrices .price2Down {
+    color: lightcoral;
+    margin-top: 0.4rem;
+  }
+}
+/*
+            small devices styles
+            */
+
+@media (max-width: 576px) {
+  .row1 {
+    /* border: 1px solid green; */
+    width: 85vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    font-weight: bold;
+  }
+
+  .row1 .card {
+    /* border: 1px solid saddlebrown; */
+    height: 8rem;
+    width: 12rem;
+    margin: 0.5rem auto;
+    padding: 0rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 1rem;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .row1 .card .cardArrowUp,
+  .row1 .card .cardArrowDown {
+    width: 0.7rem;
+    height: 0.7rem;
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 100% 100%);
+  }
+  .row1 .card .cardArrowUp {
+    background-color: rgb(102, 225, 88);
+    transform: rotate(134deg);
+  }
+  .row1 .card .cardArrowDown {
+    background-color: lightcoral;
+    transform: rotate(-45deg);
+  }
+
+  .row1 .card .cardRow1,
+  .row1 .card .cardRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .row1 .card .cardRow1 .cardLogo {
+    /* border: 1px solid saddlebrown; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .row1 .card .cardRow1 .cardDetails,
+  .row1 .card .cardRow2 .cardPrices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row1 .card .cardRow1 .cardDetails .abbr {
+    font-size: 12px;
+    color: gray;
+    margin-top: 0.4rem;
+  }
+
+  .row1 .card .cardRow2 .cardPrices .price2Up {
+    color: rgb(102, 225, 88);
+    margin-top: 0.4rem;
+  }
+  .row1 .card .cardRow2 .cardPrices .price2Down {
+    color: lightcoral;
+    margin-top: 0.4rem;
+  }
+}
+
+/* Large devices (default) */
+
+@media (min-width: 992px) {
+  .row1 {
+    /* border: 1px solid green; */
+    margin: 0.2rem;
+    padding-left: 3rem;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-weight: bold;
+  }
+
+  .row1 .card {
+    /* border: 1px solid saddlebrown; */
+    height: 8rem;
+    width: 12rem;
+    margin: 0rem 1rem;
+    padding: 0rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 1rem;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .row1 .card .cardArrowUp,
+  .row1 .card .cardArrowDown {
+    width: 0.7rem;
+    height: 0.7rem;
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 100% 100%);
+  }
+  .row1 .card .cardArrowUp {
+    background-color: rgb(102, 225, 88);
+    transform: rotate(134deg);
+  }
+  .row1 .card .cardArrowDown {
+    background-color: lightcoral;
+    transform: rotate(-45deg);
+  }
+
+  .row1 .card .cardRow1,
+  .row1 .card .cardRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .row1 .card .cardRow1 .cardLogo {
+    /* border: 1px solid saddlebrown; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .row1 .card .cardRow1 .cardDetails,
+  .row1 .card .cardRow2 .cardPrices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row1 .card .cardRow1 .cardDetails .abbr {
+    font-size: 12px;
+    color: gray;
+    margin-top: 0.4rem;
+  }
+
+  .row1 .card .cardRow2 .cardPrices .price2Up {
+    color: rgb(102, 225, 88);
+    margin-top: 0.4rem;
+  }
+  .row1 .card .cardRow2 .cardPrices .price2Down {
+    color: lightcoral;
+    margin-top: 0.4rem;
+  }
+}

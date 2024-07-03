@@ -1,0 +1,1029 @@
+/*
+        medium devices styles
+    */
+
+@media (max-width: 992px) {
+  .row2 {
+    /* border: 1px solid green; */
+    height: 300vh;
+    max-width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 0;
+  }
+
+  .row2 .col1 {
+    /* border: 1px solid salmon; */
+    height: 99%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 0;
+  }
+
+  .row2 .col2 {
+    /* border: 1px solid salmon; */
+    max-height: 80%;
+    margin: 0rem;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .row2 .col1row1,
+  .row2 .col1row2,
+  .row2 .col2row1,
+  .row2 .col2row2 {
+    /* border: 1px solid salmon; */
+    margin: 0.4rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 0.6rem;
+  }
+
+  .row2 .col1row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(54, 108, 248);
+    color: white;
+    font-weight: bold;
+    max-width: 40vw;
+    max-height: 60vh;
+  }
+
+  .row2 .col1row1 .col1row1row1,
+  .row2 .col1row1 .col1row1row2,
+  .row2 .col1row1 .col1row1row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid dodgerblue; */
+    width: 90%;
+  }
+  .row2 .col1row1 .col1row1row1 {
+    align-items: center;
+  }
+
+  .row2 .col1row1 .col1row1row3 .vizaName {
+    color: lightgray;
+  }
+
+  .row2 .col1row1 .col1row1row2 {
+    justify-content: space-around;
+  }
+
+  .row2 .col1row2 {
+    /* border: 1px solid hotpink; */
+    padding: 0.4rem;
+    font-size: small;
+    max-width: 78vw;
+  }
+  .row2 .col1row2 h1 {
+    font-size: large;
+    color: white;
+  }
+
+  .row2 .col1row2 .portfolio {
+    /* border: 1px solid khaki; */
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard {
+    /* border: 1px solid darkblue; */
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid khaki; */
+    width: 10rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardLogo {
+    margin-right: 0.5rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid salmon; */
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails .total {
+    color: gray;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid khaki; */
+    width: 6rem;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .negative {
+    color: lightcoral;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 {
+    /* border: 1px solid seagreen; */
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row2 .col2row2 .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .head .btn {
+    background-color: inherit;
+    color: white;
+    border: 1px solid gray;
+    color: gray;
+    padding: 1rem 0.5rem;
+    border-radius: 0.6rem;
+    width: 6rem;
+    font-size: smaller;
+    cursor: pointer;
+  }
+  .row2 .col2row2 .table#mobile {
+    display: none;
+  }
+
+  .row2 .col2row2 .table tbody tr {
+    text-align: start;
+  }
+  .row2 .col2row2 .table tbody tr th {
+    /* border: 1px solid seagreen; */
+    text-align: start;
+    color: gray;
+    /* border: 1px solid darkblue; */
+  }
+
+  .row2 .col2row2 .table tbody tr td {
+    /* border: 1px solid seagreen; */
+    text-align: center;
+    color: lightgray;
+  }
+  .row2 .col2row2 .table tbody tr .td1 {
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .table tbody .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 .table tbody tr td button {
+    background-color: inherit;
+    color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 {
+    /* border: 1px solid darkcyan; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 5fr;
+    width: 80vw;
+    height: fit-content;
+    overflow: scroll;
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row2 .col2row1 .head,
+  .row2 .col2row1 .chartHead {
+    /* border: 1px solid darkred; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    max-height: 1rem;
+    color: white;
+  }
+
+  .row2 .col2row1 .head .actions {
+    /* border: 1px solid darkturquoise; */
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .head .actions .btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 .head .actions select,
+  .row2 .col2row1 .chartHead select {
+    width: 6rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: inherit;
+    background-color: rgb(27, 33, 41);
+    cursor: pointer;
+  }
+  .row2 .col2row1 .head .actions select option {
+    color: white;
+    background-color: rgb(27, 33, 41);
+  }
+  .row2 .col2row1 .head .actions form {
+    /* border: 1px solid salmon; */
+    display: flex;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .chartHead .currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .currency select {
+    border: none;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .granilarity li {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity li.active {
+    background-color: rgb(59, 110, 248);
+    border: none;
+  }
+
+  .row2 .col2row1 .chart {
+    /* border: 1px solid darkturquoise; */
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .row2 .col2row1 .chart #row1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+  .row2 .col2row1 .chart #row1 .coordinates {
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col2row1 .chart #row2 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart .bar {
+    display: block;
+    background-color: gray;
+    min-width: 1rem;
+  }
+
+  .row2 .col2row1 .chart #row2 .abssissa {
+    /* border: 1px solid darksalmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/*
+            small devices styles
+            */
+
+@media (max-width: 576px) {
+  .row2 {
+    /* border: 1px solid green; */
+    height: 100vh;
+    max-width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 0;
+  }
+
+  .row2 .col1 {
+    /* border: 1px solid salmon; */
+    height: 99%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .row2 .col2 {
+    /* border: 1px solid salmon; */
+    max-height: 80%;
+    margin: 0rem;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .row2 .col1row1,
+  .row2 .col1row2,
+  .row2 .col2row1,
+  .row2 .col2row2 {
+    /* border: 1px solid salmon; */
+    margin: 0.4rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 0.6rem;
+  }
+
+  .row2 .col1row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(54, 108, 248);
+    color: white;
+    font-weight: bold;
+    max-width: 82vw;
+  }
+
+  .row2 .col1row1 .col1row1row1,
+  .row2 .col1row1 .col1row1row2,
+  .row2 .col1row1 .col1row1row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid dodgerblue; */
+    width: 90%;
+  }
+  .row2 .col1row1 .col1row1row1 {
+    align-items: center;
+  }
+
+  .row2 .col1row1 .col1row1row3 .vizaName {
+    color: lightgray;
+  }
+
+  .row2 .col1row1 .col1row1row2 {
+    justify-content: space-around;
+  }
+
+  .row2 .col1row2 {
+    /* border: 1px solid hotpink; */
+    padding: 0.4rem;
+    font-size: small;
+    max-width: 78vw;
+  }
+  .row2 .col1row2 h1 {
+    font-size: large;
+    color: white;
+  }
+
+  .row2 .col1row2 .portfolio {
+    /* border: 1px solid khaki; */
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard {
+    /* border: 1px solid darkblue; */
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid khaki; */
+    width: 10rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardLogo {
+    margin-right: 0.5rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid salmon; */
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails .total {
+    color: gray;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid khaki; */
+    width: 6rem;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .negative {
+    color: lightcoral;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 {
+    /* border: 1px solid seagreen; */
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+  }
+
+  .row2 .col2row2 .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .head .btn {
+    background-color: inherit;
+    color: white;
+    border: 1px solid gray;
+    color: gray;
+    padding: 1rem 0.5rem;
+    border-radius: 0.6rem;
+    width: 6rem;
+    font-size: smaller;
+    cursor: pointer;
+  }
+  .row2 .col2row2 .table#notMobile {
+    display: none;
+  }
+  .row2 .col2row2 .table#mobile {
+    display: block;
+  }
+
+  .row2 .col2row2 .table tbody tr {
+    text-align: start;
+  }
+  .row2 .col2row2 .table tbody tr th {
+    /* border: 1px solid seagreen; */
+    text-align: start;
+    color: gray;
+    /* border: 1px solid darkblue; */
+  }
+
+  .row2 .col2row2 .table tbody tr td {
+    /* border: 1px solid seagreen; */
+    text-align: center;
+    color: lightgray;
+  }
+  .row2 .col2row2 .table tbody tr .td1 {
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .table tbody .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 .table tbody tr td button {
+    background-color: inherit;
+    color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 {
+    /* border: 1px solid darkcyan; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 5fr;
+    width: 80vw;
+    height: fit-content;
+    overflow: scroll;
+    margin-bottom: 7rem;
+  }
+
+  .row2 .col2row1 .head,
+  .row2 .col2row1 .chartHead {
+    /* border: 1px solid darkred; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    max-height: 1rem;
+    color: white;
+  }
+
+  .row2 .col2row1 .head .actions {
+    /* border: 1px solid darkturquoise; */
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .head .actions .btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 .head .actions select,
+  .row2 .col2row1 .chartHead select {
+    width: 6rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: inherit;
+    background-color: rgb(27, 33, 41);
+    cursor: pointer;
+  }
+  .row2 .col2row1 .head .actions select option {
+    color: white;
+    background-color: rgb(27, 33, 41);
+  }
+  .row2 .col2row1 .head .actions form {
+    /* border: 1px solid salmon; */
+    display: flex;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .chartHead .currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .currency select {
+    border: none;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .granilarity li {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity li.active {
+    background-color: rgb(59, 110, 248);
+    border: none;
+  }
+
+  .row2 .col2row1 .chart {
+    /* border: 1px solid darkturquoise; */
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .row2 .col2row1 .chart #row1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+  .row2 .col2row1 .chart #row1 .coordinates {
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col2row1 .chart #row2 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart .bar {
+    display: block;
+    background-color: gray;
+    min-width: 1rem;
+  }
+
+  .row2 .col2row1 .chart #row2 .abssissa {
+    /* border: 1px solid darksalmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/* Large devices (default) */
+
+@media (min-width: 992px) {
+  .row2 {
+    /* border: 1px solid green; */
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0;
+  }
+
+  .row2 .col1 {
+    /* border: 1px solid salmon; */
+    height: 99%;
+    margin: 0 0rem;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding: 0;
+  }
+
+  .row2 .col2 {
+    /* border: 1px solid salmon; */
+    max-height: 80%;
+    margin: 0rem;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .row2 .col1row1,
+  .row2 .col1row2,
+  .row2 .col2row1,
+  .row2 .col2row2 {
+    /* border: 1px solid salmon; */
+    margin: 0.4rem;
+    background-color: rgb(27, 33, 41);
+    border-radius: 0.6rem;
+  }
+
+  .row2 .col1row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(54, 108, 248);
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col1row1 .col1row1row1,
+  .row2 .col1row1 .col1row1row2,
+  .row2 .col1row1 .col1row1row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid dodgerblue; */
+    width: 90%;
+  }
+  .row2 .col1row1 .col1row1row1 {
+    align-items: center;
+  }
+
+  .row2 .col1row1 .col1row1row3 .vizaName {
+    color: lightgray;
+  }
+
+  .row2 .col1row1 .col1row1row2 {
+    justify-content: space-around;
+  }
+
+  .row2 .col1row2 {
+    /* border: 1px solid hotpink; */
+    padding: 0.4rem;
+    font-size: small;
+  }
+  .row2 .col1row2 h1 {
+    font-size: large;
+    color: white;
+  }
+
+  .row2 .col1row2 .portfolio {
+    /* border: 1px solid khaki; */
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard {
+    /* border: 1px solid darkblue; */
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid khaki; */
+    width: 10rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardLogo {
+    margin-right: 0.5rem;
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid salmon; */
+  }
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol1 .cardDetails .total {
+    color: gray;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .cardCol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid khaki; */
+    width: 6rem;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .negative {
+    color: lightcoral;
+  }
+
+  .row2 .col1row2 .portfolio .portfolioCard .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 {
+    /* border: 1px solid seagreen; */
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+  }
+
+  .row2 .col2row2 .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .head .btn {
+    background-color: inherit;
+    color: white;
+    border: 1px solid gray;
+    color: gray;
+    padding: 1rem 0.5rem;
+    border-radius: 0.6rem;
+    width: 6rem;
+    font-size: smaller;
+    cursor: pointer;
+  }
+
+  .row2 .col2row2 .table tbody tr {
+    text-align: start;
+  }
+  .row2 .col2row2 .table tbody tr th {
+    /* border: 1px solid seagreen; */
+    text-align: start;
+    color: gray;
+  }
+
+  .row2 .col2row2 .table tbody tr td {
+    /* border: 1px solid seagreen; */
+    text-align: center;
+    color: lightgray;
+  }
+  .row2 .col2row2 .table tbody tr .td1 {
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2 .col2row2 .table tbody .positive {
+    color: rgb(102, 225, 88);
+  }
+
+  .row2 .col2row2 .table tbody tr td button {
+    background-color: inherit;
+    color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 {
+    /* border: 1px solid darkcyan; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 5fr;
+  }
+
+  .row2 .col2row1 .head,
+  .row2 .col2row1 .chartHead {
+    /* border: 1px solid darkred; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    max-height: 1rem;
+    color: white;
+  }
+
+  .row2 .col2row1 .head .actions {
+    /* border: 1px solid darkturquoise; */
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .head .actions .btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .row2 .col2row1 .head .actions select,
+  .row2 .col2row1 .chartHead select {
+    width: 6rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: inherit;
+    background-color: rgb(27, 33, 41);
+    cursor: pointer;
+  }
+  .row2 .col2row1 .head .actions select option {
+    color: white;
+    background-color: rgb(27, 33, 41);
+  }
+  .row2 .col2row1 .head .actions form {
+    /* border: 1px solid salmon; */
+    display: flex;
+    align-items: center;
+  }
+
+  .row2 .col2row1 .chartHead .currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .currency select {
+    border: none;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .row2 .col2row1 .chartHead .granilarity li {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+
+  .row2 .col2row1 .chartHead .granilarity li.active {
+    background-color: rgb(59, 110, 248);
+    border: none;
+  }
+
+  .row2 .col2row1 .chart {
+    /* border: 1px solid darkturquoise; */
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .row2 .col2row1 .chart #row1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+  .row2 .col2row1 .chart #row1 .coordinates {
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col2row1 .chart #row2 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .row2 .col2row1 .chart #row1 .actualChart .bar {
+    display: block;
+    background-color: gray;
+    min-width: 1rem;
+  }
+
+  .row2 .col2row1 .chart #row2 .abssissa {
+    /* border: 1px solid darksalmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .row2 .col2row2 .tableMobile {
+    display: none;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
